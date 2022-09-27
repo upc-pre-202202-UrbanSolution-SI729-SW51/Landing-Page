@@ -142,15 +142,20 @@ section#hero-section {
 
 }
 
+
+
 /*Section*/
 .title{
     text-align: center;
     color: black;
+    font-size: 25px;
 }
 .banner-3{
-    
     width: 100%;
     display: flex;
+}
+.banner-text{
+    width: auto;
 }
 .banner-3 h1{
     padding: 60px 60px 10px 50px;
@@ -159,6 +164,28 @@ section#hero-section {
     padding: 10px 60px 10px 50px;
 }
 .banner-3 img{
+    height: 100%;
+    width: auto;
+    padding-left: 150px;
+}
+
+.banner-4{
+    width: 100%;
+    display: flex;
+    background: rgb(217, 217, 217);
+}
+.banner-text{
+    width: auto;
+}
+.banner-4 h1{
+    padding: 60px 60px 10px 50px;
+}
+.banner-4 p{
+    padding: 10px 60px 10px 50px;
+}
+.banner-4 img{
+    height: 300px;
+    width: auto;
     padding-left: 150px;
 }
 
