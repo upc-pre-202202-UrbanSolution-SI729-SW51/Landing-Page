@@ -12,25 +12,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.header-container {
-    display: table;
-    width: 100%;
-    margin: auto;
-
-}
-
-.site-logo {
-    float: left;
-    padding: 17px 100px;
-}
-
-
-.site-nav-menu {
-    float: right;
-}
-.primary-menu{
-    list-style: none;
-}
 .primary-menu li {
     display: inline-block;
     margin: 21px 5px;
@@ -65,9 +46,7 @@ body{
 .primary-menu li .active:after{
     width: 100%;
 }
-.mobile-nav{
-    display: none;
-}
+
 .mobile-nav i{
     background-color: #04AA6D;
     float: right;
@@ -146,12 +125,14 @@ section#hero-section {
 
 /*Section*/
 .title{
+    border-top: solid 4px;
     text-align: center;
     color: black;
     font-size: 25px;
 }
 .banner-3{
-    width: 100%;
+    margin: 0 auto;
+    width: 75%;
     display: flex;
 }
 .banner-text{
@@ -171,6 +152,7 @@ section#hero-section {
 
 .banner-4{
     width: 100%;
+    border-bottom: solid 4px;
     display: flex;
     background: rgb(217, 217, 217);
 }
@@ -195,8 +177,8 @@ section#hero-section {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 75%;
     height: auto;
 }
 
@@ -219,6 +201,16 @@ section#hero-section {
     color: #7a7a7a;
 }
 .card{
+    width: 30%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+.card-left{
     width: 30%;
     margin: 20px;
     border-radius: 6px;
