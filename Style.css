@@ -345,3 +345,9 @@ section#hero-section {
 }
 
 
+.container-video{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: 100px;
+}
