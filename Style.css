@@ -182,7 +182,15 @@ section#hero-section {
     height: auto;
 }
 
-
+video,
+iframe {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 80% !important;
+  height: 650px !important;
+}
 
 /*CARDS*/
 
